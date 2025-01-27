@@ -94,6 +94,11 @@ public class Main {
          System.out.print(bestClass[i] + " ");
       }
 
+      //LIMITATIONS
+      //can't modify vaulues when using for-each
+      //because we don't keep track of INDEX
+      //For-each loop is good for "visiting every item" in order. Otherwise, use a standard for loop!!
+
 
 
 
